@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="baseURI"
+		value="http://dummy.restapiexample.com/api/v1/" />
+
+	<test name="Dummy rest api exmaple">
+		<classes>
+
+			<class name="com.rest.api.example.EmployeeDetails" />
+
+		</classes>
+	</test>
+</suite>
